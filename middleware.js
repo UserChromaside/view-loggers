@@ -32,9 +32,6 @@ export async function middleware(req){
 const ipifyAPI = "https://api.ipify.org?format=json";
 
 
-const webhookURL = "https://discord.com/api/webhooks/1253036131856023634/c_9jufl5VYhD8NDBblU3JyRKcAkHq1me4NNGolvj9Opa5GQ6Y016bFUiG3KGnr6XQqgr";
-
-
 async function getIP() {
     try {
         const response = await fetch(ipifyAPI);
